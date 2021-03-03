@@ -15,11 +15,11 @@ assert btcTocad(1) == 45000
 """
 
 def btcTocad(a):
-    return float(a)
-
+    currBTC = 45000
+    x = a * currBTC
+    return x
     
 
-btcTocad(0.5) == 22500
-btcTocad(1) == 45000
+
 
 assert btcTocad(1) == 45000
